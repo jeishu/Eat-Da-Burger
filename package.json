@@ -1,0 +1,24 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "application for users to list their favorite burgers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeishu/Eat-Da-Burger.git"
+  },
+  "author": "jeishu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeishu/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/jeishu/Eat-Da-Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
