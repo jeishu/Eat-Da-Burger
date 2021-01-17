@@ -26,7 +26,7 @@ $(function() {
     event.preventDefault();
 
     var newBurger = {
-      name: $("#bu").val().trim(),
+      burger_name: $("#bu").val().trim(),
       devour: $("[name=devour]:checked").val().trim()
     };
 
