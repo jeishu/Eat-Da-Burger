@@ -1,5 +1,7 @@
 # Eat-Da-Burger
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 This application is designed to provide users the ability to create a list of burger they would like to eat and a list that they have already eaten. 
@@ -14,6 +16,7 @@ This application is designed to provide users the ability to create a list of bu
 * [Installation](#Installation)
 * [Reference](#Reference)
 * [Contribute/Credits](#Contribute/Credits)
+* [Questions](#Questions)
 * [License](#License)
 
 ## Features
@@ -72,6 +75,13 @@ These are links that help aid me in this application.
 ## Contribute/Credits
 
 - Shoutout to my classmate Chase for helping me with my router update function.
+
+## Questions
+
+If you have any questions regarding the application, an open issue or would like to contact me, please find me at these following platforms:
+
+* Email: jeremy.zhu@utexas.edu
+* Portfolio: https://jeishu.github.io/
 
 ## License
 
