@@ -1,52 +1,117 @@
+/* Global */
+body {
+  background-color: #e0e0e0;
+  padding: 32px;
+  margin: 32px;
+  border-radius: 50px;
+  box-shadow:  20px 20px 60px #bebebe,
+  -20px -20px 60px #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
 li {
   padding: 5px;
   margin: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+h2 {
+  margin: 0;
+  padding: 10px;
 }
 
+/* Form Container */
 .label {
   font-weight: bold;
 }
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+  margin: 16px auto 32px;
+  padding: 16px;
+
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
+}
+.formSubContainer {
+  padding: 10px;
+}
+input {
+  width: 100px;
+  margin-right: 0;
+  padding-right: 0;
+}
+#submit {
+  position: absolute;
+  font-size: 10px;
+  margin: 0;
+  padding: 4.5px;
+  border: none;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
 }
 
-.form-group {
-  margin-bottom: 5px;
-}
-
-h1 {
-  text-align: center;
-}
-
+/* List Section */
 .parentContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  margin: 16px;
-  padding: 16px;
-  border: 1px black solid;
 }
 
+/* List for Waiting and Devoured */
 .notDevoured, 
 .devoured {
   align-self: flex-start;
-}
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
 
-.burger {
-  height: 100px;
-  width: 100px;
-}
-
-.formContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 16px;
-  padding: 16px;
-  border: 1px black solid;
+  padding: 16px 32px 16px 32px;
+  width: 100%;
+}
+.notDevoured {
+  margin: 16px 16px 16px 16px;
+}
+.devoured {
+  margin: 16px 0 16px 16px;
+}
+.burger {
+  height: 250px;
+  width: 250px;
+}
+.change-burger {
+  font-size: 10px;
+  margin: 0;
+  padding: 4.5px;
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
+  margin-left: 5px;
 }

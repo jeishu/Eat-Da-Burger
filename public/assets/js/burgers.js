@@ -1,5 +1,6 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
+  // Devour Button for when the new burger renders
   $(".change-burger").on("click", function(event) {
     var id = $(this).data("id");
 
@@ -12,6 +13,7 @@ $(function() {
         console.log("changed devour to", newDevour);
       }
     );
+    
     location.href = "/";
   });
 
@@ -29,6 +31,7 @@ $(function() {
         console.log("created new burger");
       }
     );
+    
     location.href = "/";
   });
   
