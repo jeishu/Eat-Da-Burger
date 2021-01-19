@@ -9,13 +9,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 li {
-  padding: 5px;
-  margin: 5px;
+  padding: 7px;
+  margin: 10px;
   text-align: center;
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
 }
 ul {
   list-style-type: none;
@@ -58,6 +64,7 @@ input {
   padding-right: 0;
 }
 #submit {
+  cursor: pointer;
   position: absolute;
   font-size: 10px;
   margin: 0;
@@ -104,12 +111,26 @@ input {
   height: 250px;
   width: 250px;
 }
-.change-burger {
+.change-burger{
+  cursor: pointer;
   font-size: 10px;
-  margin: 0;
+  margin: 5px;
   padding: 4.5px;
   border: none;
   border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
+  margin-left: 5px;
+}
+.delete-burger {
+  cursor: pointer;
+  text-align: center;
+  font-size: 10px;
+  margin: 5px;
+  padding: 5px 6px;
+  border: none;
+  border-radius: 50%;
   background: #ffffff;
   box-shadow:  20px 20px 60px #bebebe,
               -20px -20px 60px #ffffff;
