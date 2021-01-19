@@ -1,7 +1,6 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
 }
 
 .label {
@@ -16,4 +15,35 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.parentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 16px;
+}
+
+.notDevoured, 
+.devoured {
+  margin: 10px;
+  align-self: flex-start;
+}
+
+.burger {
+  height: 100px;
+  width: 100px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
 }
